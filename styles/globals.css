@@ -1,9 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap');
+
+:root {
+  --color-primary-100: #eaf2f4;
+  --color-primary-200: #d6e5e9;
+  --color-primary-300: #a7b8be;
+  --color-primary-400: #6b787e;
+  --color-primary-500: #202528;
+  --color-primary-600: #171d22;
+  --color-primary-700: #10161c;
+  --color-primary-800: #0a0f17;
+  --color-primary-900: #060b13;
+  --color-success-100: #e1fad4;
+  --color-success-200: #bff6ab;
+  --color-success-300: #8fe67c;
+  --color-success-400: #62cd58;
+  --color-success-500: #29ad29;
+  --color-success-600: #1d9428;
+  --color-success-700: #147c26;
+  --color-success-800: #0d6423;
+  --color-success-900: #075321;
+  --color-info-100: #c8faf6;
+  --color-info-200: #94f6f4;
+  --color-info-300: #5cdee6;
+  --color-info-400: #33bacd;
+  --color-info-500: #008aad;
+  --color-info-600: #006b94;
+  --color-info-700: #00507c;
+  --color-info-800: #003964;
+  --color-info-900: #002953;
+  --color-warning-100: #fcf4ca;
+  --color-warning-200: #fae696;
+  --color-warning-300: #f1d160;
+  --color-warning-400: #e4b839;
+  --color-warning-500: #d39700;
+  --color-warning-600: #b57c00;
+  --color-warning-700: #976300;
+  --color-warning-800: #7a4c00;
+  --color-warning-900: #653c00;
+  --color-danger-100: #fbdbd0;
+  --color-danger-200: #f8b1a3;
+  --color-danger-300: #ea7b72;
+  --color-danger-400: #d54c4d;
+  --color-danger-500: #ba1b2b;
+  --color-danger-600: #9f132e;
+  --color-danger-700: #850d2f;
+  --color-danger-800: #6b082d;
+  --color-danger-900: #59052c;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: var(--color-primary-500);
 }
 
 a {
