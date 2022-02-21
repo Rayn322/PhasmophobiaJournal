@@ -1,6 +1,6 @@
 import { MouseEvent, useState } from 'react';
 import { ButtonValue } from '../enums/ButtonValue';
-import styles from '../styles/ExpandingButton.module.css';
+import styles from '../styles/ThreeButtons.module.css';
 
 const ExpandingButton = () => {
   const [isHovering, setIsHovering] = useState(false);

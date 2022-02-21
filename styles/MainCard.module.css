@@ -8,7 +8,19 @@
   margin-bottom: 2rem;
 }
 
-.item {
-  padding: 0.2rem;
-  padding-top: 0;
+.evidence {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.text {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }

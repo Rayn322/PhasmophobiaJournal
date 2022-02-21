@@ -5,9 +5,9 @@ const EvidenceCard = () => {
   return (
     <div className={styles.card}>
       <h1 className={styles.title}>Evidence</h1>
-      <div className={styles.evidence}>
-        <div className={styles.item}>
-          <p className={styles.text}>No footsteps after stepping in salt.</p>
+      <div className={styles.list}>
+        <div className={styles.evidence}>
+          <p className={styles.text}>D.O.T.S. Projector</p>
           <ExpandedButton />
         </div>
       </div>

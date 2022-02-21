@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ButtonValue } from '../enums/ButtonValue';
-import styles from '../styles/ExpandingButton.module.css';
+import styles from '../styles/ThreeButtons.module.css';
 
 const ExpandedButton = () => {
   const [selectedButton, setSelectedButtion] = useState(ButtonValue.maybe);
@@ -13,17 +13,17 @@ const ExpandedButton = () => {
     <div className={styles.container}>
       <button
         type="button"
-        className={`${styles.yes} ${styles.button}`}
+        className={`${styles.yes} ${styles.button} ${selectedButton === ButtonValue.yes && styles.selected}`}
         onClick={() => onButtonClick(ButtonValue.yes)}
       />
       <button
         type="button"
-        className={`${styles.maybe} ${styles.button}`}
+        className={`${styles.maybe} ${styles.button} ${selectedButton === ButtonValue.maybe && styles.selected}`}
         onClick={() => onButtonClick(ButtonValue.maybe)}
       />
       <button
         type="button"
-        className={`${styles.no} ${styles.button}`}
+        className={`${styles.no} ${styles.button} ${selectedButton === ButtonValue.no && styles.selected}`}
         onClick={() => onButtonClick(ButtonValue.no)}
       />
     </div>
