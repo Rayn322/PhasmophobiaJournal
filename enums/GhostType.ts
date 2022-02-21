@@ -1,0 +1,23 @@
+export enum GhostType {
+  Banshee = 'Banshee',
+  Demon = 'Demon',
+  Goryo = 'Goryo',
+  Hantu = 'Hantu',
+  Jinn = 'Jinn',
+  Mare = 'Mare',
+  Myling = 'Myling',
+  Obake = 'Obake',
+  Oni = 'Oni',
+  Onryo = 'Onryo',
+  Phantom = 'Phantom',
+  Poltergeist = 'Poltergeist',
+  Raiju = 'Raiju',
+  Revenant = 'Revenant',
+  Shade = 'Shade',
+  Spirit = 'Spirit',
+  TheMimic = 'The Mimic',
+  TheTwins = 'The Twins',
+  Wraith = 'Wraith',
+  Yokai = 'Yokai',
+  Yurei = 'Yurei'
+}

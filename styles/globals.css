@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&display=swap');
 
 :root {
   --color-primary-100: #eaf2f4;
@@ -46,6 +46,8 @@
   --color-danger-700: #850d2f;
   --color-danger-800: #6b082d;
   --color-danger-900: #59052c;
+
+  
 }
 
 html,

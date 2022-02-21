@@ -1,0 +1,24 @@
+.yes {
+  background-color: var(--color-success-500);
+}
+
+.maybe {
+  background-color: var(--color-warning-400);
+}
+
+.no {
+  background-color: var(--color-danger-500);
+}
+
+.button {
+  padding: 0.5rem;
+  margin-right: 0.4rem;
+  border: 0.3rem solid var(--color-primary-900);
+  border-radius: 0.5rem;
+}
+
+.container {
+  padding: 0.2rem;
+  padding-top: 0;
+  white-space: nowrap;
+}
