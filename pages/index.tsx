@@ -13,12 +13,14 @@ const Home: NextPage = () => {
         <meta name="description" content="An advanced journal for Phasmophobia" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <div className={styles.journal}>
         <h1 className={styles.title}>Phasmophobia Advanced Journal</h1>
       </div>
-      <EvidenceCard />
-      <EventsCard />
+      <div className={styles.cards}>
+        <EvidenceCard />
+        <EventsCard />
+      </div>
       <Sidebar />
     </div>
   );

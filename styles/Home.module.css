@@ -9,3 +9,12 @@
   margin-right: max(30%, 30em);
   padding: 0 2em;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-right: max(30%, 30em);
+  margin-left: 1em
+}
+

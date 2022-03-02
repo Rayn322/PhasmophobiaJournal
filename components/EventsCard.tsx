@@ -7,38 +7,19 @@ const EventsCard = () => {
       <h1 className={styles.title}>Events</h1>
       <div className={styles.list}>
         <div className={styles.evidence}>
-          <p className={styles.text}>D.O.T.S. Projector</p>
-          <ExpandedButton />
+          <p className={styles.text}>Highest Hunt Sanity</p>
         </div>
 
         <div className={styles.evidence}>
-          <p className={styles.text}>EMF Level 5</p>
-          <ExpandedButton />
+          <p className={styles.text}>Normal Hunt Delay</p>
         </div>
 
         <div className={styles.evidence}>
-          <p className={styles.text}>Fingerprints</p>
-          <ExpandedButton />
+          <p className={styles.text}>Smudge Hunt Delay</p>
         </div>
 
         <div className={styles.evidence}>
-          <p className={styles.text}>Freezing Temperatures</p>
-          <ExpandedButton />
-        </div>
-
-        <div className={styles.evidence}>
-          <p className={styles.text}>Ghost Orbs</p>
-          <ExpandedButton />
-        </div>
-
-        <div className={styles.evidence}>
-          <p className={styles.text}>Ghost Writing</p>
-          <ExpandedButton />
-        </div>
-
-        <div className={styles.evidence}>
-          <p className={styles.text}>Spirit Box</p>
-          <ExpandedButton />
+          <p className={styles.text}>Ghost Event Types</p>
         </div>
       </div>
     </div>
