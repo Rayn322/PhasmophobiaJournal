@@ -1,5 +1,4 @@
 import styles from '../styles/MainCard.module.css';
-import ExpandedButton from './ExpandedButton';
 
 const EventsCard = () => {
   return (

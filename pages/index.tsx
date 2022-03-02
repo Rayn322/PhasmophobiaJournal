@@ -4,6 +4,7 @@ import EventsCard from '../components/EventsCard';
 import EvidenceCard from '../components/EvidenceCard';
 import Sidebar from '../components/Sidebar';
 import styles from '../styles/Home.module.css';
+import jsonData from '../ghosts.json';
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       
       <div className={styles.journal}>
         <h1 className={styles.title}>Phasmophobia Advanced Journal</h1>
+        {JSON.stringify(jsonData)}
       </div>
       <div className={styles.cards}>
         <EvidenceCard />
