@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import EventsCard from '../components/EventsCard';
 import EvidenceCard from '../components/EvidenceCard';
 import Sidebar from '../components/Sidebar';
 import styles from '../styles/Home.module.css';
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Phasmophobia Advanced Journal</h1>
       </div>
       <EvidenceCard />
+      <EventsCard />
       <Sidebar />
     </div>
   );

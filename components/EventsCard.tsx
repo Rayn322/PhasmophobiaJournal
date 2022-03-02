@@ -1,10 +1,10 @@
 import styles from '../styles/MainCard.module.css';
 import ExpandedButton from './ExpandedButton';
 
-const EvidenceCard = () => {
+const EventsCard = () => {
   return (
     <div className={styles.card}>
-      <h1 className={styles.title}>Evidence</h1>
+      <h1 className={styles.title}>Events</h1>
       <div className={styles.list}>
         <div className={styles.evidence}>
           <p className={styles.text}>D.O.T.S. Projector</p>
@@ -45,4 +45,4 @@ const EvidenceCard = () => {
   );
 };
 
-export default EvidenceCard;
+export default EventsCard;

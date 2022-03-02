@@ -13,17 +13,23 @@ const ExpandedButton = () => {
     <div className={styles.container}>
       <button
         type="button"
-        className={`${styles.yes} ${styles.button} ${selectedButton === ButtonValue.yes && styles.selected}`}
+        className={`${styles.yes} ${styles.button} ${
+          selectedButton === ButtonValue.yes && styles.selected
+        }`}
         onClick={() => onButtonClick(ButtonValue.yes)}
       />
       <button
         type="button"
-        className={`${styles.maybe} ${styles.button} ${selectedButton === ButtonValue.maybe && styles.selected}`}
+        className={`${styles.maybe} ${styles.button} ${
+          selectedButton === ButtonValue.maybe && styles.selected
+        }`}
         onClick={() => onButtonClick(ButtonValue.maybe)}
       />
       <button
         type="button"
-        className={`${styles.no} ${styles.button} ${selectedButton === ButtonValue.no && styles.selected}`}
+        className={`${styles.no} ${styles.button} ${
+          selectedButton === ButtonValue.no && styles.selected
+        }`}
         onClick={() => onButtonClick(ButtonValue.no)}
       />
     </div>

@@ -11,18 +11,21 @@
 }
 
 .button {
-  padding: 0.5rem;
-  margin-right: 0.4rem;
-  border: 0.3rem solid var(--color-primary-900);
-  border-radius: 0.5rem;
+  padding: 0.65em;
+  border: 0.3em solid var(--color-primary-900);
+  border-radius: 0.6em;
+}
+
+.button:not(:last-child) {
+  margin-right: 0.6em;
 }
 
 .container {
-  padding: 0.2rem;
+  padding: 0.2em;
   padding-top: 0;
   white-space: nowrap;
 }
 
 .selected {
-  border: 0.3rem solid var(--color-primary-200);
+  border: 0.3em solid var(--color-primary-200);
 }

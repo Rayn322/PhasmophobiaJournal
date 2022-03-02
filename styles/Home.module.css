@@ -6,6 +6,6 @@
 .journal {
   display: flex;
   justify-content: center;
-  margin-right: max(30%, 30rem);
-  padding: 0 2rem;
+  margin-right: max(30%, 30em);
+  padding: 0 2em;
 }
