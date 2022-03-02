@@ -1,4 +1,4 @@
-import { GhostType } from '../enums/GhostType';
+import { GhostType } from '../types/GhostType';
 import styles from '../styles/GhostCard.module.css';
 import ExpandedButton from './ExpandedButton';
 

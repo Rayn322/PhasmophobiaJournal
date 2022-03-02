@@ -1,8 +1,21 @@
-import { GhostType } from '../enums/GhostType';
+import { EvidenceType } from '../types/EvidenceType';
+import { GhostType } from '../types/GhostType';
 import styles from '../styles/Sidebar.module.css';
 import Ghost from './Ghost';
+import ghostsJson from '../ghosts.json';
 
-const Sidebar = () => {
+interface SidebarProps {
+  possibleEvidence: EvidenceType[];
+  confirmedEvidence: EvidenceType[];
+}
+
+const Sidebar = ({ possibleEvidence, confirmedEvidence }: SidebarProps) => {
+
+  const getPossibleGhosts = () => {
+    const possibleGhosts: GhostType[] = [];
+    return possibleGhosts;
+  }
+
   return (
     <div className={styles.sidebar}>
       <h1 className={styles.title}>Possible Ghosts</h1>

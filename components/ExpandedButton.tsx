@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ButtonValue } from '../enums/ButtonValue';
+import { ButtonValue } from '../types/ButtonValue';
 import styles from '../styles/ThreeButtons.module.css';
 
 const ExpandedButton = () => {

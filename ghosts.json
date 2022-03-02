@@ -1,191 +1,191 @@
 {
   "banshee": {
-    "evidence" : [],
+    "name": "Banshee",
+    "evidence": ["D.O.T.S. Projector", "Fingerprints", "Ghost Orbs"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "demon": {
-    "evidence" : [],
+    "name": "Demon",
+    "evidence": ["Fingerprints", "Freezing Temperatures", "Ghost Writing"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 100,
     "huntDelay": 20,
     "smudgeHuntDelay": 60
-
   },
   "goryo": {
-    "evidence" : [],
+    "name": "Goryo",
+    "evidence": ["D.O.T.S. Projector", "EMF Level 5", "Fingerprints"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "hantu": {
-    "evidence" : [],
+    "name": "Hantu",
+    "evidence": ["Fingerprints", "Freezing Temperatures", "Ghost Orbs"],
     "abilities": [],
     "isFast": true,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "jinn": {
-    "evidence" : [],
+    "name": "Jinn",
+    "evidence": ["EMF Level 5", "Fingerprints", "Freezing Temperatures"],
     "abilities": [],
     "isFast": true,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "mare": {
-    "evidence" : [],
+    "name": "Mare",
+    "evidence": ["Ghost Writing", "Ghost Orbs", "Spirit Box"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 60,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "myling": {
-    "evidence" : [],
+    "name": "Myling",
+    "evidence": ["EMF Level 5", "Fingerprints", "Ghost Writing"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "obake": {
-    "evidence" : [],
+    "name": "Obake",
+    "evidence": ["EMF Level 5", "Fingerprints", "Ghost Orbs"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "oni": {
-    "evidence" : [],
+    "name": "Oni",
+    "evidence": ["D.O.T.S. Projector", "EMF Level 5", "Freezing Temperatures"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "onryo": {
-    "evidence" : [],
+    "name": "Onryo",
+    "evidence": ["Freezing Temperatures", "Ghost Orbs", "Spirit Box"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 100,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "phantom": {
-    "evidence" : [],
+    "name": "Phantom",
+    "evidence": ["D.O.T.S. Projector", "Fingerprints", "Spirit Box"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "poltergeist": {
-    "evidence" : [],
+    "name": "Poltergeist",
+    "evidence": ["Fingerprints", "Ghost Writing", "Spirit Box"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "raiju": {
-    "evidence" : [],
+    "name": "Raiju",
+    "evidence": ["D.O.T.S. Projector", "EMF Level 5", "Ghost Orbs"],
     "abilities": [],
     "isFast": true,
     "maxHuntSanity": 65,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "revenant": {
-    "evidence" : [],
+    "name": "Revenant",
+    "evidence": ["Freezing Temperatures", "Ghost Orbs", "Ghost Writing"],
     "abilities": [],
     "isFast": true,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "shade": {
-    "evidence" : [],
+    "name": "Shade",
+    "evidence": ["EMF Level 5", "Freezing Temperatures", "Ghost Writing"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 35,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "spirit": {
-    "evidence" : [],
+    "name": "Spirit",
+    "evidence": ["EMF Level 5", "Ghost Writing", "Spirit Box"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 180
-
   },
   "theMimic": {
-    "evidence" : [],
+    "name": "The Mimic",
+    "evidence": ["Fingerprints", "Freezing Temperatures", "Ghost Orbs", "Spirit Box"],
     "abilities": [],
     "isFast": true,
     "maxHuntSanity": 100,
     "huntDelay": 20,
     "smudgeHuntDelay": 60
-
   },
   "theTwins": {
-    "evidence" : [],
+    "name": "The Twins",
+    "evidence": ["EMF Level 5", "Freezing Temperatures", "Spirit Box"],
     "abilities": [],
     "isFast": true,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "wraith": {
-    "evidence" : [],
+    "name": "Wraith",
+    "evidence": ["D.O.T.S. Projector", "EMF Level 5", "Spirit Box"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "yokai": {
-    "evidence" : [],
+    "name": "Yokai",
+    "evidence": ["D.O.T.S. Projector", "Ghost Orbs", "Spirit Box"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 80,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   },
   "yurei": {
-    "evidence" : [],
+    "name": "Yurei",
+    "evidence": ["D.O.T.S. Projector", "Freezing Temperatures", "Ghost Orbs"],
     "abilities": [],
     "isFast": false,
     "maxHuntSanity": 50,
     "huntDelay": 25,
     "smudgeHuntDelay": 90
-
   }
 }
