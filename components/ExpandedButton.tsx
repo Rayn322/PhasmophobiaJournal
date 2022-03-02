@@ -8,12 +8,15 @@ interface ExpandedButtonProps {
   handleClick?: (evidenceType: EvidenceType, buttonValue: ButtonValue) => void;
 }
 
-const ExpandedButton = ( { evidenceType, handleClick }: ExpandedButtonProps) => {
+const ExpandedButton = ({ evidenceType, handleClick }: ExpandedButtonProps) => {
   const [selectedButton, setSelectedButtion] = useState(ButtonValue.maybe);
 
+  // maybe improve usage of evidenceType to improve reusability
   const onButtonClick = (value: ButtonValue) => {
     setSelectedButtion(value);
-    handleClick(evidenceType, value);
+    if (handleClick && evidenceType) {
+      handleClick(evidenceType, value);
+    }
   };
 
   return (
