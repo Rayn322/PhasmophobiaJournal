@@ -1,0 +1,191 @@
+{
+  "banshee": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "demon": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 100,
+    "huntDelay": 20,
+    "smudgeHuntDelay": 60
+
+  },
+  "goryo": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "hantu": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": true,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "jinn": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": true,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "mare": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 60,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "myling": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "obake": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "oni": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "onryo": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 100,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "phantom": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "poltergeist": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "raiju": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": true,
+    "maxHuntSanity": 65,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "revenant": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": true,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "shade": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 35,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "spirit": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 180
+
+  },
+  "theMimic": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": true,
+    "maxHuntSanity": 100,
+    "huntDelay": 20,
+    "smudgeHuntDelay": 60
+
+  },
+  "theTwins": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": true,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "wraith": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "yokai": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 80,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  },
+  "yurei": {
+    "evidence" : [],
+    "abilities": [],
+    "isFast": false,
+    "maxHuntSanity": 50,
+    "huntDelay": 25,
+    "smudgeHuntDelay": 90
+
+  }
+}
