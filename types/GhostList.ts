@@ -1,8 +1,11 @@
 import { EvidenceType } from './EvidenceType';
-import { GhostType } from './GhostType';
 
-export interface GhostObject {
-  name: GhostType;
+export interface GhostList {
+  ghosts: GhostInfo[];
+}
+
+export interface GhostInfo {
+  name: string;
   evidence: EvidenceType[];
   abilities: string[];
   isFast: boolean;

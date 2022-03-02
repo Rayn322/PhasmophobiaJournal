@@ -3,6 +3,7 @@ import { GhostType } from '../types/GhostType';
 import styles from '../styles/Sidebar.module.css';
 import Ghost from './Ghost';
 import ghostsJson from '../ghosts.json';
+import { GhostInfo, GhostList } from '../types/GhostList';
 
 interface SidebarProps {
   possibleEvidence: EvidenceType[];
@@ -10,21 +11,24 @@ interface SidebarProps {
 }
 
 const Sidebar = ({ possibleEvidence, confirmedEvidence }: SidebarProps) => {
-
   const getPossibleGhosts = () => {
-    const possibleGhosts: GhostType[] = [];
+    const data: GhostList = JSON.parse(JSON.stringify(ghostsJson));
+    const possibleGhosts: string[] = [];
+
+    data.ghosts.forEach((ghost: GhostInfo) => {
+      // check if every possible evidence is included in the ghost's evidence
+      if (possibleEvidence.every((evidence: EvidenceType) => ghost.evidence.includes(evidence))) {
+        possibleGhosts.push(ghost.name);
+      }
+    });
+
     return possibleGhosts;
-  }
+  };
 
   return (
     <div className={styles.sidebar}>
       <h1 className={styles.title}>Possible Ghosts</h1>
-      <Ghost type={GhostType.Banshee} />
-      <Ghost type={GhostType.Demon} />
-      <Ghost type={GhostType.Hantu} />
-      <Ghost type={GhostType.Yokai} />
-      <Ghost type={GhostType.Revenant} />
-      <Ghost type={GhostType.Jinn} />
+      {getPossibleGhosts().map((ghost) => <Ghost key={ghost} type={ghost} />)}
     </div>
   );
 };

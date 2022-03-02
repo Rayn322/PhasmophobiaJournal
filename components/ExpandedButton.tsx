@@ -1,12 +1,19 @@
 import { useState } from 'react';
 import { ButtonValue } from '../types/ButtonValue';
 import styles from '../styles/ThreeButtons.module.css';
+import { EvidenceType } from '../types/EvidenceType';
 
-const ExpandedButton = () => {
+interface ExpandedButtonProps {
+  evidenceType?: EvidenceType;
+  handleClick?: (evidenceType: EvidenceType, buttonValue: ButtonValue) => void;
+}
+
+const ExpandedButton = ( { evidenceType, handleClick }: ExpandedButtonProps) => {
   const [selectedButton, setSelectedButtion] = useState(ButtonValue.maybe);
 
   const onButtonClick = (value: ButtonValue) => {
     setSelectedButtion(value);
+    handleClick(evidenceType, value);
   };
 
   return (

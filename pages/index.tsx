@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import EventsCard from '../components/EventsCard';
 import EvidenceCard from '../components/EvidenceCard';
 import Sidebar from '../components/Sidebar';
@@ -8,8 +8,10 @@ import { EvidenceType } from '../types/EvidenceType';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
-  const [possibleEvidence, setPossibleEvidence] = useState<EvidenceType[]>([]);
+  // TODO: do the thing where it actually makes sense and confirmed is the list of green, yellow = possible, red = eliminated
   const [confirmedEvidence, setConfirmedEvidence] = useState<EvidenceType[]>([]);
+  const [possibleEvidence, setPossibleEvidence] = useState<EvidenceType[]>([]);
+  const [eliminatedEvidence, setEliminatedEvidence] = useState<EvidenceType[]>([]);
 
   return (
     <div className={styles.container}>
@@ -24,7 +26,7 @@ const Home: NextPage = () => {
       </div>
 
       <div className={styles.cards}>
-        <EvidenceCard />
+        <EvidenceCard possibleEvidence={possibleEvidence} setPossibleEvidence={setPossibleEvidence} />
         <EventsCard />
       </div>
       <Sidebar possibleEvidence={possibleEvidence} confirmedEvidence={confirmedEvidence} />
